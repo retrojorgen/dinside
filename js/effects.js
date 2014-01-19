@@ -26,3 +26,10 @@ $('.category').on('mouseout', hideSubSection);
 
 $('.category-subsection').on('mouseover', showSubSection);
 $('.category-subsection').on('mouseout', hideSubSection);
+
+
+
+$(document).ready(function() {
+  console.log($('object').attr('height'));
+  $('object').attr('height', '400');
+})
